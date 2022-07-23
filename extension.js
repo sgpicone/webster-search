@@ -1,7 +1,7 @@
 //Strings
-const CFG_SECTION = "googleSearch";
+const CFG_SECTION = "websterSearch";
 const CFG_QUERY = "QueryTemplate";
-const CMD_ID = "extension.googleSearch";
+const CMD_ID = "extension.websterSearch";
 
 const vscode = require("vscode");
 
@@ -26,8 +26,8 @@ function webSearch() {
     return;
   }
   const uriText = encodeURI(selectedText);
-  const googleSearchCfg = vscode.workspace.getConfiguration(CFG_SECTION);
-  const queryTemplate = googleSearchCfg.get(CFG_QUERY);
+  const websterSearchCfg = vscode.workspace.getConfiguration(CFG_SECTION);
+  const queryTemplate = websterSearchCfg.get(CFG_QUERY);
   const query = queryTemplate.replace("%SELECTION%", uriText);
   vscode.commands.executeCommand("vscode.open", vscode.Uri.parse(query));
 }

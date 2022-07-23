@@ -1,23 +1,25 @@
-# Google Search
-A Simple Extension for VSCode to search easily using Google
+# Merriam-Webster Search
 
-### If you use [bing](https://marketplace.visualstudio.com/items?itemName=kameshkotwani.bing-search), I have an extension for that too!
-# What it does:
-Well, if you are stuck in some confusion about what this or that line or this function does, then you can simply select the function or line you want and vola! you'll get instant search results for that query in your default web-browser without needing to type or copy the whole thing up!
+A Simple Extension for VSCode to easily look up words in the Merriam-Webster dictionary. Adapted from [Kamesh Kotwani's Google-Search extension](https://github.com/kameshkotwani/google-search).
 
-## How it works!
-Simply select the word or function you want to search, then right click and click on `Google this` in drop-down menu.
+## What it does
 
-# See it in Action
-#### when you select the text and right click you'll see `Google this` in your drop-down menu
+If you're not sure about what a word means if you're using it correctly, you can highlight it and look it up in the [Merriam-Webster](https://www.merriam-webster.com/) dictionary.
 
-![drop-down-menu](https://github.com/kameshkotwani/google-search/blob/master/resources/drop-down-menu.png?raw=true)
+## How it works
 
-## How it opens in browser
+Simply select the word you want to search, then right click and click on `Search Webster's Dictionary` in drop-down menu.
 
-![browser-query-results](https://github.com/kameshkotwani/google-search/blob/master/resources/search-results.png?raw=true)
+## See it in Action
 
+### When you select the text and right click you'll see `Search Webster's Dictionary` in your drop-down menu
 
-### If you encounter any issues, please let me know [here](https://github.com/kameshkotwani/google-search/issues)
+![drop-down-menu](resources/drop-down-menu.png?raw=true)
 
-#### This extension was made possible by [Ciprian Burca](https://github.com/burcadoruciprian)
+### How it opens in browser
+
+![browser-query-results](resources/search-results.png?raw=true)
+
+### If you encounter any issues, please let me know [here](https://github.com/sgpicone/webster-search/issues)
+
+#### This extension was made possible by [Ciprian Burca](https://github.com/burcadoruciprian) and [Kamesh Kotwani](https://github.com/kameshkotwani)

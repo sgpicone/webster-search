@@ -1,27 +1,27 @@
 {
-  "name": "google-search",
-  "displayName": "google-search",
-  "description": "Google your doubts, errors and confusions!",
+  "name": "webster-search",
+  "displayName": "webster-search",
+  "description": "Search Merriam-Webster dictionary!",
   "version": "0.0.1",
-  "publisher": "kameshkotwani",
+  "publisher": "sgpicone",
   "engines": {
     "vscode": "^1.31.0"
   },
   "author": {
-    "name": "Kamesh Kotwani",
-    "url": "https://www.github.com/kameshkotwani"
+    "name": "Stephen Picone",
+    "url": "https://www.github.com/sgpicone"
   },
   "icon": "resources/icon.png",
-  "homepage": "https://www.github.com/kameshkotwani/google-search",
+  "homepage": "https://www.github.com/sgpicone/webster-search",
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/kameshkotwani/google-search"
+    "url": "https://www.github.com/sgpicone/webster-search"
   },
   "categories": [
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.googleSearch"
+    "onCommand:extension.websterSearch"
   ],
   "main": "./extension.js",
   "contributes": {
@@ -29,24 +29,24 @@
       "editor/context": [
         {
           "when": "editorHasSelection",
-          "command": "extension.googleSearch",
+          "command": "extension.websterSearch",
           "group": "navigation"
         }
       ]
     },
     "commands": [
       {
-        "command": "extension.googleSearch",
-        "title": "Search with Google"
+        "command": "extension.websterSearch",
+        "title": "Search Webster's Dictionary"
       }
     ],
     "configuration": {
-      "title": "Google Search Config",
+      "title": "Webster Search Config",
       "type": "object",
       "properties": {
-        "googleSearch.QueryTemplate": {
+        "websterSearch.QueryTemplate": {
           "type": "string",
-          "default": "https://www.google.com/search?q=%SELECTION%",
+          "default": "https://www.merriam-webster.com/dictionary/%SELECTION%",
           "description": "Search Query"
         }
       }
