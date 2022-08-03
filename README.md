@@ -26,10 +26,12 @@ Simply select the word you want to search, then right click and click on `Search
 
 ---
 
-As of 2022-07-23 I haven't published this to the vscode marketplace, but you can clone this repo and build it using `vsce` to get a `vsix` package to install into vscode manually.
+~~As of 2022-07-23 I haven't published this to the vscode marketplace, but you can clone this repo and build it using `vsce` to get a `vsix` package to install into vscode manually.~~
 
-To do so, follow these steps:
+~~To do so, follow these steps:~~
 
-- Run `npm install -g vsce`
-- Run `vsce package`
-- Install the package in vscode by running `code --install-extension webster-search-0.0.1.vsix`
+~~- Run `npm install -g vsce`~~
+~~- Run `vsce package`~~
+~~- Install the package in vscode by running `code --install-extension webster-search-0.0.1.vsix`~~
+
+[As of 2022-08-03, it's *live* on the marketplace!](https://marketplace.visualstudio.com/items?itemName=loosegoose.webster-search)
