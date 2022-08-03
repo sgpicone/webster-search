@@ -3,7 +3,7 @@
   "displayName": "webster-search",
   "description": "Search Merriam-Webster dictionary!",
   "version": "0.0.1",
-  "publisher": "sgpicone",
+  "publisher": "loosegoose",
   "engines": {
     "vscode": "^1.31.0"
   },
